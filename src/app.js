@@ -6,7 +6,7 @@ const app = express()
 const publicDirectoryPath = path.join(__dirname, '../public')
 
 const viewPath=path.join(__dirname+'../../views')
-console.log(viewPath)
+
 
 app.set('views',path.join(__dirname+'../../views'))
 app.set('view engine', 'hbs')
